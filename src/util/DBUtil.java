@@ -9,7 +9,7 @@ public class DBUtil {
 	public static Connection getConnection() {
 		try {
 			String username = "root";
-			String password = "Golfer31";
+			String password = "******";
 			Class.forName("com.mysql.jdbc.Driver");
 			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/booke", username, password);
 					
